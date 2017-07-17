@@ -9,4 +9,4 @@
 ## 添加远程仓库
 
 * 本地已经创建一个 Git 仓库后，又想在 GitHub 创建一个 Git 仓库，并且让这两个仓库进行远程同步。
-* 第一步：在 GitHub 上 新建一个仓库
+* 第一步：在 GitHub 上 新建一个仓库，如 https://github.com/steveLauwh/Git-GitHub.git
