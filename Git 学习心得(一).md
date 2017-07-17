@@ -18,8 +18,20 @@ git config --list
 
 * 版本库：仓库(repository)，可理解成一个目录，Git 管理该目录下所有文件。
 * 初始化一个仓库：`git init` 把当前的目录变成 Git 可以管理的仓库，空仓库。
-* 添加文件到 Git 仓库，两步骤
+* 添加文件到 Git 仓库，两步骤：
   + git add file   // file 表示文件名，可添加多个
   + git commit -m "xxx" // xxx 表示提交内容信息，最好有意义，便于查看
+
+## 查看工作区的状态
+
+* `git status` 查看仓库当前的状态。
+* `git diff` 查看修改内容，如 `git diff file.txt` 查看 file.txt 修改内容。
+
+## 版本回退
+
+* `git log` 显示从最近到最远的提交日志，嫌输出信息太多，可以加上 --pretty=oneline 参数。
+* `git reset --hard HEAD^` 回退上一个版本，HEAD 指向的版本是当前版本，HEAD^ 上一个版本，HEAD^^ 上上一个版本。
+* `git reset --hard commit_id` 指定回到未来的某个版本，其中`commit_id`表示你要回到未来那个版本的id。
+* `git reflog` 查看命令历史，记录版本对应的 commit_id。
 
 ## 
