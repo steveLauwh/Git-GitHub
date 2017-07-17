@@ -29,8 +29,8 @@ git config --list
 
 ## 版本回退
 
-* `git log` 显示从最近到最远的提交日志，嫌输出信息太多，可以加上 --pretty=oneline 参数。
-* `git reset --hard HEAD^` 回退上一个版本，HEAD 指向的版本是当前版本，HEAD^ 上一个版本，HEAD^^ 上上一个版本。
+* `git log` 显示从最近到最远的提交日志，嫌输出信息太多，可以加上 `--pretty=oneline` 参数。
+* `git reset --hard HEAD^` 回退上一个版本，HEAD 指向的版本是当前版本，`HEAD^` 上一个版本，`HEAD^^` 上上一个版本。
 * `git reset --hard commit_id` 指定回到未来的某个版本，其中`commit_id`表示你要回到未来那个版本的id。
 * `git reflog` 查看命令历史，记录版本对应的 commit_id。
 
@@ -38,7 +38,7 @@ git config --list
 
 * 工作区：电脑里能看到的目录。
 * 版本库：工作区中有一个隐藏的目录 .git，它就是 Git 的版本库。
-* Git 的版本库包括 stage 的暂存区，Git 为我们自动创建的第一个分支 `master`，以及指向 master 的一个指针 `HEAD`。
+* Git 的版本库包括 stage 的暂存区，Git 为我们自动创建的第一个分支 `master`，以及指向 `master` 的一个指针 `HEAD`。
 * 使用 `git add` 只是把文件提交到暂存区，然后使用 `git commit` 命令，才是真正把暂存区的所有内容都提交到当前分支。
 
 ## 管理修改
