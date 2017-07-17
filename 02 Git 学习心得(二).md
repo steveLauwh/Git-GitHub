@@ -9,4 +9,11 @@
 ## 添加远程仓库
 
 * 本地已经创建一个 Git 仓库后，又想在 GitHub 创建一个 Git 仓库，并且让这两个仓库进行远程同步。
-* 第一步：在 GitHub 上 新建一个仓库，如 https://github.com/steveLauwh/Git-GitHub.git
+* 第一步：在 GitHub 上新建一个仓库 Git-GitHub，复制SSH：git@github.com:steveLauwh/Git-GitHub.git。
+* 第二步：在本地的仓库下运行命令：`git remote add origin git@github.com:steveLauwh/Git-GitHub.git`，关联远程仓库。
+* 第三部：把本地库的所有内容推送到远程库上：`git push -u orign master`。
+* 以后只要本地提交 `git push origin master`，就可以把本地 master 分支的最新修改推送到 GitHub。
+
+## 从远程库克隆
+
+* 远程库已经准备OK，使用 `git clone` 克隆一个本地库，如：`git clone git@github.com:steveLauwh/Git-GitHub.git`。
