@@ -6,15 +6,15 @@
 ## 创建标签
 
 * `git tag <name>` 就可以打一个标签。
-```
-git tag v1.0
-```
+  ```
+    git tag v1.0
+  ```
 * `git tag` 查看所有标签。
 * 找历史提交的commit id：`git log --pretty=oneline --abbrev-commit`。
 * 当忘了打标签，找到历史的 commit id，然后使用 `git tag <name> commit-id`。
-```
-git tag v0.8 12345
-```
+  ```
+    git tag v0.8 12345
+  ```
 * `git show <tagname>` 查看标签信息。
 * `git tag -a <tagname> -m "xxxxx"`可以指定标签信息。
 * `git tag -s <tagname> -m "xxxxx"`可以用PGP签名标签。
@@ -25,11 +25,11 @@ git tag v0.8 12345
 * `git push origin --tags` 可以推送全部未推送过的本地标签。
 * `git tag -d <tagname>` 可以删除一个本地标签。
 * 先删除本地标签，再 `git push origin :refs/tags/<tagname>` 可以删除一个远程标签。
-```
-git push origin v1.0
-git tag -d v1.0
-git push origin :refs/tags/v1.0
-```
+  ```
+    git push origin v1.0
+    git tag -d v1.0
+    git push origin :refs/tags/v1.0
+  ```
 
 ## 使用 GitHub
 
