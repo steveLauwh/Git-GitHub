@@ -47,10 +47,10 @@ git push origin :refs/tags/v1.0
 * 配置别名
   + 当前用户的 Git 配置文件放在用户主目录下的一个隐藏文件 .gitconfig 中。
   + 每个仓库的Git配置文件都放在.git/config文件中。
-```
-用 git st 表示 git status。
-git config --global alias.st status
-```
+  ```
+    用 git st 表示 git status。
+    git config --global alias.st status
+  ```
 
 
 
