@@ -45,7 +45,7 @@ git push origin :refs/tags/v1.0
 * 所有配置文件可以直接在线浏览：https://github.com/github/gitignore。
 * `.gitignore` 文件本身要放到版本库里，并且可以对 `.gitignore` 做版本管理。
 * 配置别名
-  + 当前用户的 Git 配置文件放在用户主目录下的一个隐藏文件 .gitconfig 中。
+  + 当前用户的 Git 配置文件放在用户主目录下的一个隐藏文件 .gitconfig 中。
   + 每个仓库的Git配置文件都放在.git/config文件中。
 ```
 用 git st 表示 git status。
