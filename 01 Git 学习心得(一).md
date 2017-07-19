@@ -19,7 +19,7 @@ git config --list
 * 版本库：仓库(repository)，可理解成一个目录，Git 管理该目录下所有文件。
 * 初始化一个仓库：`git init` 把当前的目录变成 Git 可以管理的仓库，空仓库。
 * 添加文件到 Git 仓库，两步骤：
-  + git add file   // file 表示文件名，可添加多个  (git add . 匹配所有文件)
+  + git add file   // file 表示文件名，可添加多个  (git add . 匹配所有文件)
   + git commit -m "xxx" // xxx 表示提交内容信息，最好有意义，便于查看
 
 ## 查看工作区的状态
