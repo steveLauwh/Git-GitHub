@@ -19,6 +19,13 @@
 * 远程库已经准备OK，使用 `git clone` 克隆一个本地库，如：`git clone git@github.com:steveLauwh/Git-GitHub.git`。
 * Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
+## 从远程库更新到本地库
+
+* `git fetch origin master`           //从远程的origin仓库的master分支下载代码到本地的origin master
+* `git log -p master.. origin/master` //比较本地的仓库和远程参考的区别
+* `git merge origin/master`           //把远程下载下来的代码合并到本地仓库，远程的和本地的合并
+
+
 ## 创建与合并分支 (看作指针的移动)
 
 * `master` 分支为 Git 主分支，`HEAD` 指向当前分支。
