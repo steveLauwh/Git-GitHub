@@ -13,3 +13,6 @@
 * https://www.git-tower.com/blog/git-cheat-sheet/
 * http://blog.jobbole.com/111187/
 * http://www.yangzhiping.com/tech/github.html
+* [GotGitHub](http://www.worldhello.net/gotgithub/)
+* [Git&Github 社区化协作使用指南](http://www.diguage.com/archives/42.html)
+* [Github 风格的 Markdown](https://help.github.com/categories/writing-on-github/)
